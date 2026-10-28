@@ -10,4 +10,6 @@ Run: python3 calculator.py
 Enter the first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
 
-
+Sample test: Run chmod +x run.sh, then ./run.sh. Enter 6, *, 7; 
+expect Result: 42.0. 
+Stop this test using Ctrl+C. The calculator may print KeyboardInterrupt.
