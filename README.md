@@ -13,3 +13,8 @@ The program prints Result: followed by the answer.
 Sample test: Run chmod +x run.sh, then ./run.sh. Enter 6, *, 7; 
 expect Result: 42.0. 
 Stop this test using Ctrl+C. The calculator may print KeyboardInterrupt.
+
+Sample test: Activate the supplied SCCM4910 virtual environment using source /opt/python-venv/sccm-4910/bin/activate.
+Then, run chmod +x check.sh followed by ./check.sh and immediately after this run echo $?
+expected result: Five passing tests, the success message from ./check.sh and exit status 0 from echo $? 
+If exit status is 1, some tests have failed. If exit status is 5, no tests were collected
